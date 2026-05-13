@@ -1,0 +1,18 @@
+{
+  "name": "my-vura-app",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vura dev",
+    "build": "vura build",
+    "start": "vura start"
+  },
+  "dependencies": {
+    "@celsian/then-core": "^0.1.0"
+  },
+  "devDependencies": {
+    "@celsian/then-cli": "^0.1.0",
+    "typescript": "^5.5.0"
+  }
+}
