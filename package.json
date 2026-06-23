@@ -9,10 +9,12 @@
     "start": "vura start"
   },
   "dependencies": {
-    "@celsian/then-core": "^0.1.0"
+    "@celsian/vura-core": "^0.5.1",
+    "what-framework": "^0.11.1",
+    "ws": "^8.18.0"
   },
   "devDependencies": {
-    "@celsian/then-cli": "^0.1.0",
-    "typescript": "^5.5.0"
+    "@celsian/vura-cli": "^0.5.1",
+    "typescript": "^5.7.0"
   }
 }
