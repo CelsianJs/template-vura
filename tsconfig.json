@@ -1,14 +1,15 @@
 {
   "compilerOptions": {
     "target": "ES2022",
-    "module": "ESNext",
-    "moduleResolution": "bundler",
+    "module": "Node16",
+    "moduleResolution": "Node16",
+    "jsx": "react-jsx",
+    "jsxImportSource": "what-framework",
     "strict": true,
     "esModuleInterop": true,
     "skipLibCheck": true,
     "outDir": "dist",
-    "rootDir": "src",
-    "declaration": true
+    "rootDir": "src"
   },
-  "include": ["src", "vura.config.ts"]
+  "include": ["src"]
 }
