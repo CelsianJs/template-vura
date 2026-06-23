@@ -1,6 +1,6 @@
 import { h } from "what-framework";
 
-export const page = { mode: "server", title: "Welcome to Vura" };
+export const page = { mode: "static", title: "Welcome to Vura" };
 
 export default function HomePage() {
   return h("main", { class: "home" }, [
